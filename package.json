@@ -4,8 +4,7 @@
   "description": "Book Library System",
   "main": "index.js",
   "scripts": {
-    "start": "node server/start.js",
-    "build": "node scripts/build.js"
+    "start": "node server/start.js"
   },
   "author": "Neeraj Jain",
   "license": "ISC",
