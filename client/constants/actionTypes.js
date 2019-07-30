@@ -1,0 +1,33 @@
+/* Common for all */
+export const ACCESS_CONTROL_MAX_AGE = 2592000;
+export const AJAX_TIMEOUT = 30000;
+
+/* Get All Books */
+export const GET_BOOKS_INITIATE = "GET_BOOKS_INITIATE";
+export const GET_BOOKS_REQUEST = "GET_BOOKS_REQUEST";
+export const GET_BOOKS_SUCCESS = "GET_BOOKS_SUCCESS";
+export const GET_BOOKS_ERROR = "GET_BOOKS_ERROR";
+
+/* Get Specific Book */
+export const GET_BOOK_INITIATE = "GET_BOOK_INITIATE";
+export const GET_BOOK_REQUEST = "GET_BOOK_REQUEST";
+export const GET_BOOK_SUCCESS = "GET_BOOK_SUCCESS";
+export const GET_BOOK_ERROR = "GET_BOOK_ERROR";
+
+/* Delete The Book */
+export const DELETE_BOOK_INITIATE = "DELETE_BOOK_INITIATE";
+export const DELETE_BOOK_REQUEST = "DELETE_BOOK_REQUEST";
+export const DELETE_BOOK_SUCCESS = "DELETE_BOOK_SUCCESS";
+export const DELETE_BOOK_ERROR = "DELETE_BOOK_ERROR";
+
+/* Add The Book */
+export const ADD_BOOK_INITIATE = "ADD_BOOK_INITIATE";
+export const ADD_BOOK_REQUEST = "ADD_BOOK_REQUEST";
+export const ADD_BOOK_SUCCESS = "ADD_BOOK_SUCCESS";
+export const ADD_BOOK_ERROR = "ADD_BOOK_ERROR";
+
+/* Edit The Book */
+export const EDIT_BOOK_INITIATE = "EDIT_BOOK_INITIATE";
+export const EDIT_BOOK_REQUEST = "EDIT_BOOK_REQUEST";
+export const EDIT_BOOK_SUCCESS = "EDIT_BOOK_SUCCESS";
+export const EDIT_BOOK_ERROR = "EDIT_BOOK_ERROR";
